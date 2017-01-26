@@ -1,0 +1,57 @@
+/*
+Random Quote Generator
+Malia Waddell
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,500);
+
+.quote-text{
+  font-family: Oswald, sans serif;
+  font-size: 28px;
+  color: white;
+  text-align:  center;
+  position: relative;
+  margin: 8%, auto, auto, auto;
+}
+
+.quote-author{
+  font-family: Oswald, sans serif;
+  font-size: 24px;
+  font-style: italic;
+  color: white;
+  text-align:  right;
+  position: relative;
+  margin: 8%, auto, auto, auto;
+}
+html, body{
+    margin:0;
+    padding:0;
+    border:0;
+    height:100%;
+    width:100%;
+}
+
+.quote-box{
+  
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  background: darkslategrey;
+  border-radius: 20px;
+  width: 500px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+
+.btn {
+  text-align: center;
+  background: lightgray;
+  margin-left: 10px;
+}
+
+body {
+  background-color: white;
+}
+.footer {
+  text-align: center;
+  padding-top: 20px;
+}
